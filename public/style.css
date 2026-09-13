@@ -1,0 +1,46 @@
+
+*{box-sizing:border-box}
+:root{font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:#fff;background:#090b10}
+body{
+ margin:0;min-height:100vh;padding:28px;
+ background:radial-gradient(circle at top,#143a66 0,#101722 40%,#07090d 100%);
+}
+.wrap{width:min(100%,560px);margin:28px auto}
+.card{
+ background:rgba(19,23,31,.98);border:1px solid #293343;border-radius:24px;
+ padding:30px;box-shadow:0 30px 90px rgba(0,0,0,.48)
+}
+.brand{text-align:center;margin-bottom:24px}
+.shield{font-size:58px}
+h1,h2{margin:8px 0 10px}
+.muted{color:#aeb8c8;line-height:1.55}
+.price{font-size:38px;font-weight:850;margin:18px 0;text-align:center}
+.pix{
+ border:1px solid #287858;background:#0e2a21;padding:16px;border-radius:14px;margin:18px 0
+}
+.apps{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 18px}
+.app{
+ border:1px solid #354052;background:#151a23;padding:8px 10px;border-radius:999px;
+ color:#dbe4f2;font-size:13px
+}
+label{display:block;color:#b8c2d1;font-size:13px;margin:14px 0 6px}
+input{
+ width:100%;padding:13px 14px;border:1px solid #354052;border-radius:11px;
+ background:#0d1118;color:#fff;font-size:15px
+}
+button,.btn{
+ width:100%;display:block;margin-top:18px;padding:14px 16px;border:0;border-radius:12px;
+ background:#5865f2;color:#fff;font-size:16px;font-weight:800;text-decoration:none;text-align:center;
+ cursor:pointer
+}
+button:hover,.btn:hover{filter:brightness(1.08)}
+.qr{
+ display:block;width:min(310px,100%);margin:20px auto;background:#fff;padding:13px;border-radius:18px
+}
+.copy{
+ word-break:break-all;background:#0a0d12;border:1px solid #2c3442;padding:13px;border-radius:10px;
+ font:12px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;color:#dbe4f3
+}
+.status-wait{margin-top:18px;padding:14px;border-radius:12px;background:#2a220e;color:#ffe09b;border:1px solid #705d29}
+.status-ok{margin-top:18px;padding:14px;border-radius:12px;background:#0c2a1d;color:#a9f1cc;border:1px solid #267453}
+.note{font-size:12px;color:#8894a7;line-height:1.5;margin-top:18px}
